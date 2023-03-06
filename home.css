@@ -1,0 +1,41 @@
+.quote {
+    margin: 3%;
+    text-align: center;
+    height: 500px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 125px 5px 125px 5px; 
+}
+
+.quote h1 {
+    font-size: 50px;
+}
+
+.quote p {
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+a {
+    color: #f9cd08;
+}
+
+#dayone {
+    border: 1px solid black;
+    padding: 0px 10px;
+    background-color: black;
+    border-radius: 10px 5px 10px 5px;
+    font-style: italic;
+    padding-right: 15px;
+}
+
+#dayone:hover {
+    margin-right: -5px;
+    margin-left: 5px;
+    height: 100px;
+    margin-top: 5px;
+}
